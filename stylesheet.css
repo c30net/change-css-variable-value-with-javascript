@@ -1,0 +1,33 @@
+:root {
+  --base-color: #ffc600;
+  --blur: 2px;
+  --spacing: 10px;
+}
+img {
+  width: 100%;
+  filter: blur(var(--blur));
+  margin-top: var(--spacing);
+  margin-left: var(--spacing);
+}
+
+body {
+  background-color: black;
+}
+
+.controls {
+  background-color: black;
+  color: white;
+}
+
+.pictureFrame {
+  background-color: var(--base-color);
+  width: 90vw;
+}
+
+h1 span {
+  color: var(--base-color);
+}
+
+h1 {
+  color: white;
+}
